@@ -9,7 +9,6 @@ function startGame() {
 	randomNumber = Math.floor((Math.random() * 100) +1);
 	$("#random-number").text(randomNumber);
 };
-
 startGame();
 
 
